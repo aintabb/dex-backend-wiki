@@ -21,3 +21,5 @@ Both controllers will use the same class as the return result.
 | id | 
 | name |
 | description |
+| type |
+| uri |
