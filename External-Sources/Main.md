@@ -1,1 +1,0 @@
-Info about source integration such as GitLab and GitHub
