@@ -11,7 +11,8 @@
 |  | RefreshToken | String | The refresh token of the user for communicating with the service API | |
 | **Project** | Id                      | Integer | Identification string                                | Auto-generated |
 |             | Name                    | String   | The name of the project                              |                |
-|             | Description             | String   | The description of the project                       |                |
+|             | Description             | String   | A description of the project                      |                |
+| | ShortDescription | String | A short description of the project | |
 |             | Uri                     | String   | The URI of the project                               |                |
 | | UserId | Integer | The id of the user who added the project | |
 |             | Contributors            | String[] | The contributors of the project                      |                |
