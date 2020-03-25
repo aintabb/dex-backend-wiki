@@ -16,4 +16,6 @@
 |             | Uri                     | String   | The URI of the project                               |                |
 | | UserId | Integer | The id of the user who added the project | |
 |             | Contributors            | String[] | The contributors of the project                      |                |
+| | Created | DateTime | The date and time that the project was created | |
+|  | Updated          | DateTime | The date and time that the project was last updated | |
 
