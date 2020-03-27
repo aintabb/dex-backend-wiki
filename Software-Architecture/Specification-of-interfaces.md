@@ -9,5 +9,6 @@
 |                        | /project        | POST   | User                                                    | Add new project                      |
 |                        | /project/{id}   | PUT    | User (The user that added the project) or administrator | Edit project information             |
 |                        | /project/{id}   | DELETE | User (The user that added the project) or administrator | Delete project                       |
-| **Search Controller**  | /search/{query} | GET    | User                                                    | Search for projects                  |
+| **Search Controller**  | /search/internal/{query} | GET    | User                                                    | Search for projects in the Digital Excellence database |
+|  | /search/external/{query} | GET | User | Search for projects in the FHICT GitLab |
 
