@@ -40,3 +40,5 @@ Both controllers will use the same class as the return result.
 | ShortDescription | String | The short description of the project |
 | Created | DateTime | The date and time that the project was created |
 | Updated | DateTime | The date and time that the project was last updated |
+
+![Class_Diagram2](uploads/e17bc012e3fa941b748b0bfb96f90264/Class_Diagram2.jpg)
