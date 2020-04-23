@@ -1,1 +1,1 @@
-Technica depth on how to deploy Digital Excellence
+Technical depth on how to deploy Digital Excellence
