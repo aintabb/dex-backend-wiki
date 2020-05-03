@@ -11,7 +11,7 @@ Digital Excellence uses an external identity provider. This identity provider al
 
 Digital Excellence uses information (projects) from multiple external sources (For example: GitLab, GitHub, etc.)
 
-![alt text](../images/architecture/C1.png "C1 Context")
+![alt text](..wiki/images/architecture/C1.png "C1 Context")
 
 
 
