@@ -27,7 +27,7 @@ The diagram below gives a more in-depth look at Digital Excellence. The applicat
 - The **identity back end** is the back end that handles all requests to authenticate and authorize users.
 - The **databases** are containers that are responsible for storing data (For example: projects, users, etc.). The data is stored and retrieved by the API back end and the identity back end.
 
-![alt text](../images/architecture/C2.png "C2 Containers")
+![alt text](../wiki/images/architecture/C2.png "C2 Containers")
 
 
 
@@ -51,4 +51,4 @@ The diagram below contains a more in-depth look at the API back end of Digital E
     - The **project repository** stores and retrieves projects.
     - The **sources manager** retrieves and searches projects in external sources (For example: GitLab, GitHub, etc.)
 
-![alt text](../images/architecture/C3.png "C3 Components")
+![alt text](../wiki/images/architecture/C3.png "C3 Components")
