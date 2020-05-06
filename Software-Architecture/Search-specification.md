@@ -13,6 +13,9 @@ The internal controller will search through the registered projects in Digital E
 
 It is possible to apply pagination by using ?page={PAGE}&amountOnPage={AMOUNT} as the query string.
 
+To apply sorting, the query parameters sortBy and sortDirection can be used. (For example: ?sortBy=name&sortDirection=asc)
+
+To apply filters, the query parameter for the specific filter can be added to the query. (For example: ?highlighted=true)
 
 
 The external controller will be hardwired into FHICT GitLab.
