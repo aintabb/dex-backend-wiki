@@ -8,7 +8,22 @@ If you are having troubles editing the wiki, do not hesitate to ask for help.
 
 ## Table of contents
 
-[[_TOC_]]
+- [Table of contents](#table-of-contents)
+- [Markdown](#markdown)
+- [Editing the wiki](#editing-the-wiki)
+  * [Using the web interface](#using-the-web-interface)
+    + [Creating a new wiki page](#creating-a-new-wiki-page)
+    + [Editing a wiki page](#editing-a-wiki-page)
+    + [Deleting a wiki page](#deleting-a-wiki-page)
+    + [Moving a wiki page](#moving-a-wiki-page)
+    + [Viewing a list of all created wiki pages](#viewing-a-list-of-all-created-wiki-pages)
+    + [Viewing the history of a wiki page](#viewing-the-history-of-a-wiki-page)
+  * [Adding and editing wiki pages locally using Git](#adding-and-editing-wiki-pages-locally-using-git)
+    + [Clone your wiki](#clone-your-wiki)
+    + [Creating a new wiki page](#creating-a-new-wiki-page-1)
+    + [Editing a wiki page](#editing-a-wiki-page-1)
+    + [Deleting a wiki page](#deleting-a-wiki-page-1)
+    + [Moving a wiki page](#moving-a-wiki-page-1)
 
 
 
