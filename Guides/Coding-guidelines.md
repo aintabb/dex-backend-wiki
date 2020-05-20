@@ -38,6 +38,7 @@ Both request- and response- bodies must use resource classes. These classes can 
 
 
 The controller should return a `404 Not Found` status code when a requested resource does not exist. (So not `204 No Content`.)
+The controller should return a `401 Unauthorized` status code when a user is requesting a resource, while not having permission to do so.
 
 
 
