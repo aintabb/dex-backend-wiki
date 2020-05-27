@@ -10,7 +10,7 @@
 * [Search Controller Specification](https://github.com/DigitalExcellence/dex-backend/wiki/Search-specification)
 * [Interfaces](https://github.com/DigitalExcellence/dex-backend/wiki/Specification-of-interfaces)
 * [Persistence of Components](https://github.com/DigitalExcellence/dex-backend/wiki/Persistence-per-component)
-
+* [Service information](https://github.com/DigitalExcellence/dex-backend/wiki/Service-information)
 ### Research
 * [Gitlab & Github Source](https://github.com/DigitalExcellence/dex-backend/wiki/Research-GitHub-and-GitLab)
 
