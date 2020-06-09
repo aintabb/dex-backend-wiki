@@ -16,3 +16,9 @@ get started with GitLab make your first commit.
 
 and if you haven't done that then the API cannot get any information.
 referring to the not instantiated part.
+
+## DA33DBE1-55DC-4574-B62F-C7B76A7309CF
+The given guid was not a valid guid.
+the format is:
+XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+The x can be a character(lowercase and uppercase are equal) or a number.
