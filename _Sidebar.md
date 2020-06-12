@@ -3,6 +3,7 @@
 ### Digital Excellence
 * [Home](https://github.com/DigitalExcellence/dex-backend/wiki)
 * [What is Digital Excellence](https://github.com/DigitalExcellence/dex-backend/wiki/General-Description)
+* [Getting Started](https://github.com/DigitalExcellence/dex-backend/wiki/Getting-Started)
 
 ### Technical Documentation
 * [Deployment Instructions](https://github.com/DigitalExcellence/dex-backend/wiki/Deploying-DeX)
