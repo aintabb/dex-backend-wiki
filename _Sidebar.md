@@ -14,7 +14,7 @@
 * [Service information](https://github.com/DigitalExcellence/dex-backend/wiki/Service-information)
 
 ### Tools
-* [SonarQube](https://github.com/DigitalExcellence/dex-backend/wiki/SonarQube)
+* [SonarQube Local](https://github.com/DigitalExcellence/dex-backend/wiki/SonarQube)
 
 ### Research
 * [Gitlab & Github Source](https://github.com/DigitalExcellence/dex-backend/wiki/Research-GitHub-and-GitLab)
