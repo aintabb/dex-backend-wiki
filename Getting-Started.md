@@ -15,7 +15,7 @@ The backend consist of the following three services:
 1. Clone [this](https://github.com/DigitalExcellence/dex-backend) repository, using the following command:   
 ```git clone https://github.com/DigitalExcellence/dex-backend.git```
 2. Browse to the folder of the repository
-3. Run the command: `docker-compose up` (If you want to run it in the background: `docker-compose up -d`)
+3. Run the command: `docker-compose up` (If you want to run it in the background: `docker-compose up -d`) (if you need to rebuild the images use: `docker-compose up --build`)
 4. After a short while, the services should be running and accessible on the urls mentioned in the about section
 5. When you visit the urls for the first time, you should trust the certificate
 6. When you want to stop the services from running, run the command: `docker-compose down`
