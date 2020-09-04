@@ -25,7 +25,7 @@ The backend consist of the following three services:
 ## Setup with Visual Studio
 ### Prerequisites
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [Visual Studio]
+- [Visual Studio](https://visualstudio.microsoft.com/)
 
 ### Steps
 1. Clone backend repository
@@ -42,7 +42,7 @@ To check if API is working:
 
 ## Postman setup
 ### Prerequisites
-- [Postman]
+- [Postman](https://www.postman.com/downloads/)
 
 ### Steps
 1. Import both environment & collection .json files from backend repository in Postman.
