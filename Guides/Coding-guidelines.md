@@ -455,7 +455,7 @@ Use the following convention:
   
 - An indent has a width of four spaces.
   
-- Windows-style line endings must be used in all files (crlf).
+- Unix style line endings must be used in all files (lf).
   
 - Write only one statement per line. 
   
