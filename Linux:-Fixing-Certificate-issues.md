@@ -1,14 +1,14 @@
 In some cases when developing on Linux you will experience issues where the API is unable to validate the certificate of the Identity Server. This error will show after authenticating and trying to make a call to an authorized endpoint. You will see an error that will say something regarding the https//localhost:5005/.well-known/openid-configuration url.
 
-How to fix this?
+**How to fix this?**
 * `dotnet dev-certs https --clean` to clean any old certificates
 * `dotnet dev-certs https -v` to generate a self-signed cert
 * `cd ~/.dotnet/corefx/cryptography/x509stores/my`
 * `ls -all` and check for a cerficate with the .pfx extension.
-* convert the existing certificate from pfx to pem using `openssl pkcs12 -in <certname>.pfx -nokeys -out localhost.crt -nodes`
+* Convert the existing certificate from pfx to pem using `openssl pkcs12 -in <certname>.pfx -nokeys -out localhost.crt -nodes`
 * `cp localhost.crt /usr/local/share/ca-certificates` copy localhost.crt to /usr/local/share/ca-certificates
-* trust the certificate using `sudo update-ca-certificates`
-* verify that the verification failed using `openssl verify localhost.crt`  
+* Trust the certificate using `sudo update-ca-certificates`
+* Verify that the verification failed using `openssl verify localhost.crt`  
 Output should be similar to  
 ```
 $ openssl verify localhost.crt
@@ -50,6 +50,8 @@ DNS.2   = 127.0.0.1
 * Verify certificate by using `openssl verify -CAfile localhost.crt localhost.crt` The value should be something along the line: `localhost.crt: OK`
 * Copy the .crt file to /usr/local/share/ca-certificates using `cp localhost.crt /usr/local/share/ca-certificates`
 * Trust the certificate using `sudo update-ca-certificates`
+* Update permissions of the .pfx file using: `sudo chmod 777 /usr/local/share/ca-certificates/localhost.pfx`
+* Copy the .pfx file in /usr/local/share/ca-certificates to ~/.dotnet/corefx/cryptography/x509stores/my using: `cp localhost.pfx ~/.dotnet/corefx/cryptography/x509stores/my`
 * We're nearly ready. We just have to add some small code changes in both our API/appsettings.development.json and IdentityServer/appsettings.development.json
 Add the following code at the end of the file:
 ```
