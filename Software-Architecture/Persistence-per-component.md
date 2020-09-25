@@ -39,3 +39,8 @@
 || FullName| string| The name of the collaborator||
 || Role| string| The role this person played in the project||
 || ProjectId| Integer| The Id of the project||
+|**File**|Id|Integer|Identification number|Auto-generated|
+|| Path | string| Path where the file is stored||
+|| UploadDateTime| DateTime| Date and time when the file was uploaded||
+|| Name | string| name of the file||
+|| UploaderId| Integer| The Id the user who uploaded the file||
