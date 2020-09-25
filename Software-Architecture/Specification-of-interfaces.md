@@ -31,5 +31,10 @@
 || /api/Role/{roleId}| DELETE| Scope.RoleWrite|Delete role|
 || /api/Role| POST | Scope.RoleWrite|Create role|
 || /api/Role/SetRole| PUT | Scope.RoleWrite|Update role of user|
+| **File Controller** | /api/File | GET    | ? | Get all files|
+|| /api/File| POST  | Role.RegisteredUser| Upload / Create file|
+|| /api/File/{fileId} | GET    | ? | Get single file|
+|| /api/File/{fileId} | DELETE | ? | Delete file |
+
 
 
