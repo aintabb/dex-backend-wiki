@@ -1,8 +1,8 @@
-Within the Digital Excellence project, the [wiki](https://git.fhict.nl/dex/dex-backend/-/wikis/home) is used to host technical documentation and other information about the project.
+Within the Digital Excellence project, the wiki is used to host technical documentation and other information about the project.
 
 This guide explains how you can add or edit pages within the wiki.
 
-If you are having troubles editing the wiki, do not hesitate to ask for help.
+If you are having trouble editing the wiki, do not hesitate to ask for help.
 
 
 
