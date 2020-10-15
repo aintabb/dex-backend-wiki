@@ -1,0 +1,15 @@
+script:
+- |-
+  git config user.name "aintabb"
+  git config user.email "emreozvarlik@gmail.com"
+  git remote remove origin
+  git remote add origin https://$GITHUB_API_KEY@github.com/aintabb/dex-backend-wiki.git > /dev/null 2>&1
+  git remote add upstream https://$GITHUB_API_KEY@github.com/DigitalExcellence/dex-backend.wiki.git > /dev/null 2>&1
+  git fetch origin
+  git fetch upstream
+  git merge upstream/master --no-edit
+  git push origin HEAD:master > /dev/null 2>&1
+  git push upstream HEAD:master > /dev/null 2>&1
+env:
+  matrix:
+    secure: WQleJMOvVLbEbC5xvAvsC0DvHjerifg6mYWVRcQkRpLBkL9YeOu0zjnM+PiZhQFd8BOE5DOmOsBbYSBRPklgqe1I8TVZN/t31ZlBEZ66a8ZW1IoxvpJeMetb8EKcMvhoH6wXeJZCqjyuP4LdQTYivvMzMehrAKkPcPJQQqLbyx9OteDAiiw30d8yjDlvEabKaQc3RtDlgpk7Fdhsw4jmGlqZIuAQdrJa9wu6Y3EIXJGBxaN0jIEay7cvSIRnuPNQw9n8GnKwsOPM0eCaJxDiNt5h5PrbfbxPmKMKKkmsEk2y4LM+XryYn5UfHaVckNEl/ZhLJChzQ6NqdsFxYu6IWpOM30Qdx0sjLkVKd0GckLpnA5syfObPgHNIax3Vpu2KufVSnesS8lcKABld8KXTGzIuMRsDilwTIggkXlLpKR7l5KbfUF6uJ14HmNkwbr7m7yfUZXisbbLvLmP3HJhdGEtsuHkvyVQlrN8akwx3TGOxMmifuYsyewQeRo6g3owqU00KvxMOBFny3sHnZhF+leedLcJxT795xYdHkdyTlZViHS59FZSSXw4LqAxIWjAmlnoeaZbVv3VfqcGYb1wewCi/wYJg0KTMNVZEs9xvkVKyYUSj5h+KXzh18SLvLUp6NabUmnzzdTtv/R8hJ8X/HaaBRj6spCyAgSzw6ebBGoE=
